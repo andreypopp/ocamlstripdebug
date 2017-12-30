@@ -1,0 +1,26 @@
+{
+  "name": "ocamlstripdebug",
+  "version": "0.1.0",
+  "description": "Strip debug info from OCaml bytecode",
+  "license": "LGPL-2.1",
+  "esy": {
+    "build": [
+      "jbuilder build"
+    ],
+    "install": [
+      "esy-installer"
+    ],
+    "buildsInSource": "_build"
+  },
+  "dependencies": {
+    "@esy-ocaml/esy-installer": "^0.0.0",
+    "@opam/jbuilder": "^1.0.0-beta16"
+  },
+  "peerDependencies": {
+    "ocaml": "*"
+  },
+  "devDependencies": {
+    "ocaml": "~4.6.0",
+    "@opam/merlin": "^3.0.0"
+  }
+}

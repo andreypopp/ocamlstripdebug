@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/stripdebug/META" {"META"}
+  "_build/install/default/lib/stripdebug/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/ocamlstripdebug" {"ocamlstripdebug"}
+]
+doc: [
+  "_build/install/default/doc/stripdebug/README.md"
+  "_build/install/default/doc/stripdebug/LICENSE"
+]
